@@ -4,16 +4,16 @@
     * [How do I find out what OpenSSL version I’m running?](introduction/version.md)
     * [How do I get a list of the available commands?](introduction/avai-commands.md)
     * [How do I get a list of available ciphers?](introduction/avai-ciphers.md)
-* [Benchmarking]
-    * How do I benchmark my system’s performance?
-    * How do I benchmark remote connections?
-* Certificates
+* [基准测试]
+    * [How do I benchmark my system’s performance?](benchmark/performance.md)
+    * [How do I benchmark remote connections?](benchmark/connections.md)
+* [证书]
     * How do I generate a self-signed certificate?
     * How do I generate a certificate request for VeriSign?
     * How do I test a new certificate?
     * How do I export or import a PKCS#12 certificate?
-* Certificate Verification
-    * How do I verify a certificate?
+* [验证证书](certificate/README.md)
+    * [How do I verify a certificate?](certificate/verify.md)
     * What certificate authorities does OpenSSL recognize?
     * How do I get OpenSSL to recognize/verify a certificate?
 * Command-line clients and servers
@@ -31,9 +31,9 @@
     * How do I simply encrypt a file?
     * Errors
     * How do I interpret SSL error messages?
-* Keys
-    * How do I generate an RSA key?
-    * How do I generate a public RSA key?
+* [密钥]
+    * [如何生成RSA私钥?](keys/rsa_private_key.md)
+    * [如何生成RSA公钥?](keys/rsa_public_key.md)
     * How do I generate a DSA key?
     * How do I create an elliptic curve key?
     * How do I remove a passphrase from a key?
